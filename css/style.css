@@ -1,0 +1,812 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400|Raleway:400,500,600,800&display=swap');
+/*Common CSS Starts*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a,a:hover{
+	text-decoration: none;
+}
+ul,ol,li{
+	list-style: none;
+}
+img{
+	vertical-align: middle;
+	border: none;
+}
+h1,h2,h3,h4,h5,h6,a,p,img,ul,ol,li,.navbar{
+	margin: 0px;
+	padding: 0px;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Raleway', sans-serif;
+}
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+/*Common CSS Ends*/
+
+/*Header CSS Starts*/
+.header {
+	background: url(../img/banner.jpg) no-repeat;
+	position: relative;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20%;
+    left: 15%;
+    z-index: 10;
+    color: #fff;
+    text-align: center;
+}
+.carousel-caption h5 {
+	font-size: 36px;
+	font-weight: 500;
+}
+.carousel-caption h1 {
+	font-size: 52px;
+	font-weight: 800;
+	padding: 24px 0px 30px 0px;
+}
+.carousel-caption p {
+	font-size: 16px;
+	font-weight: 300;
+	padding-bottom: 76px;
+}
+.carousel-caption a{
+	font-size: 14px;
+	font-weight: 800;
+	font-family: 'Raleway', sans-serif;
+	padding: 21px 37px;
+	background: #736357;
+	border-radius: 5px;
+	color: #fff;
+	transition: all linear .3s;
+}
+.carousel-caption a:hover{
+	background: #998675;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding: 0px;
+	padding-left: 30px;
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	transition: all linear .3s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+	color: #c0ac94;
+}
+/*Header CSS Ends*/
+
+/*Services CSS Starts*/
+.ser_con {
+	padding: 80px 0px 0px 0px;
+}
+.ser_con h4 {
+	font-size: 22px;
+	font-weight: 600;
+	color: #555555;
+	padding: 30px 0px 20px 0px;
+}
+.ser_con p {
+	font-size: 14px;
+	font-weight: 400;
+	color: #555555;
+}
+.underline {
+	height: 3px;
+	width: 70px;
+	background: #f1eee9;
+	margin: 32px 0px 78px 80px;
+}
+.ser_con:hover img{
+	color: #c7b299;
+}
+.main_menu {
+	position: absolute;
+	top: 0;
+	left: 14%;
+}
+
+/*Services CSS Ends*/
+
+
+/*Ideas CSS Starts*/
+.idea {
+	background: #fbfaf8;
+	padding-top: 82px;
+}
+.i_con h3 {
+	font-size: 30px;
+	font-weight: 600;
+	color: #555555;
+
+}
+.i_con p {
+	font-size: 16px;
+	font-weight: 300;
+	padding: 30px 0px 163px 0px;
+	color: #959595;
+}
+.i_con .i_img {
+	position: relative;
+}
+.i_con .i_img_pos {
+	position: absolute;
+	top: -120px;
+	left: 175px;
+}
+
+
+/*Ideas CSS Ends*/
+
+/*Wordpress CSS Starts*/
+
+.wordpress {
+	background: url(../img/wordpress.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 50px 0px 52px 0px;
+
+}
+.w_con span {
+	color: #bfab93;
+}
+.w_con h4 {
+	font-size: 28px;
+	color: #fff;
+}
+.w_con p {
+	font-size: 18px;
+	color: #584f4c;
+}
+
+/*Wordpress CSS Ends*/
+
+/*Projects CSS Ends*/
+
+.projects {
+	padding: 82px 0px 100px 0px;
+}
+.pro_con h3 {
+	color: #555555;
+	font-size: 30px;
+	font-weight: 600;
+}
+.pro_con p {
+	color: #8c8c8c;
+	font-size: 16px;
+	padding: 30px 0px 52px 0px;
+}
+.pro_icon a {
+	font-size: 14px;
+	color: #8c8c8c;
+	padding: 10px 17px;
+	border: 1px solid #ebebeb;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	border-radius: 3px;
+	margin-left: 10px;
+	transition: all linear .3s;
+}
+
+.pro_icon a:hover {
+	background: #998675;
+	color: #fff;
+}
+.project_con {
+	position: relative;
+	padding-top: 40px;
+}
+.project_content {
+	height: 100px;
+	width: 350px;
+	background: #fbfaf8;
+	position: relative;
+	transition: all linear .3s;
+}
+.project_content h5{
+	color: #998675;
+	font-size: 20px;
+	padding: 30px 0px 15px 30px;
+}
+.project_content p {
+	color: #d1d1d1;
+	font-size: 14px;
+	padding: 0px 0px 25px 30px;
+}
+.Project_corner {
+	height: 30px;
+	width: 30px;
+	background: #fbfaf8;
+	transform: rotate(45deg);	
+	position: absolute;
+	top: -8px;
+	left: 23px;
+	transition: all linear .3s;
+}
+.Project_overlay {
+	height: 224px;
+	width: 349px;
+	background: rgba(54, 47, 45, .8);
+	position: absolute;
+	top: 41px;
+	left: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: all linear .3s;
+}
+.Project_overlay a {
+	margin: 0px 15px;
+	font-size: 28px;
+	color: #fff;
+	transition: all linear .3s;
+}
+.Project_overlay a:hover {
+	color: #c7b299;
+}
+
+.project_con:hover .Project_overlay{
+	opacity: 1;
+}
+/*.project_con:hover .project_content {
+	background: #362f2d;
+}*/
+.project_con:hover .project_content{
+	background: #362f2d;
+	color: #f5f5f5;
+}
+.project_con:hover .Project_corner {
+	background: #362f2d;
+}
+.project_con:hover h5{
+	color: #ffffff;
+}
+.project_con:hover p{
+	color: #c7b299;
+}
+/*.project_img:hover .project_content{
+	background: #362f2d;
+}*/
+.pro_btn {
+	padding: 60px 0px 0px 0px;
+}
+.pro_btn a {
+	text-transform: uppercase;
+	padding: 15px 22px;
+	background: #fff;
+	color: #998675;
+	border-radius: 5px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	border: 1px solid #998675;
+	transition: all linear .3s;
+}
+.pro_btn a:hover {
+	background: #998675;
+	color: #fff;
+}
+/*Projects CSS Ends*/
+
+/*video CSS Starts*/
+.video {
+	background: url(../img/videobg.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 210px 0px 259px 0px;
+}
+.video_con h4 {
+	font-size: 30px;
+	color: #fff;
+	font-weight: 500;
+	padding: 44px 0px 30px 0px;
+}
+.video_con p {
+	color: #fff;
+	font-size: 16px;
+}
+
+/*video CSS Ends*/
+
+/*Mobile CSS Starts*/
+
+.mobile {
+	padding-top: 76px;
+}
+.m_con h4 {
+	padding: 70px 0px 39px 0px;
+	font-size: 30px;
+	font-weight: 600;
+}
+.m_con p {
+	font-size: 16px;
+	color: #8c8c8c;
+	padding-bottom: 70px;
+	
+}
+.m_icon i {
+	font-size: 12px;
+	padding: 5px 8px;
+	background: #c7b299;
+	border-radius: 25px;
+}
+.phn_con p {
+	padding-bottom: 22px;
+	font-size: 16px;
+}
+
+
+
+/*Mobile CSS Ends*/
+
+/*Gradient CSS Starts*/
+
+.gradient {
+	background-image: linear-gradient(to right, #251d1b , #4d3327);
+}
+.gr_con {
+	padding: 70px 0px 60px 80px;
+}
+.gr_con span {
+	display: block;
+	color: #fff;
+	padding: 30px 0px 21px 0px;
+	font-size: 48px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+}
+.gr_con p {
+	color: #c7b299;
+	padding-bottom: 30px;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.under {
+	height: 2px;
+	width: 31px;
+	background: #fff;
+	margin-left: 45px;
+}
+
+/*Gradient CSS Ends*/
+
+/*Posts CSS Starts*/
+.post {
+	padding: 80px 0px 80px 0px;
+}
+
+
+.post_img {
+	position: relative;
+}
+.post_calender {
+	height: 60px;
+	width: 50px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.date {
+	height: 35px;
+	width: 50px;
+	background: #363636;
+}
+.date p {
+	font-size: 24px;
+	color: #f5f5f5;
+}
+.month {
+	height: 25px;
+	width: 50px;
+	background: #252525;
+}
+.month span {
+	font-size: 12px;
+	color: #f5f5f5;
+	font-family: 'Raleway', sans-serif;
+	margin-left: 14px;
+}
+.post_paragraph {
+	border: 2px solid #f8f8f8;
+	border-top: none;
+	padding-left: 28px;
+	padding-bottom: 30px;
+	transition: all linear .3s;
+}
+.post_paragraph:hover {
+	background: #362f2d;
+}
+.post_paragraph h4 {
+	font-size: 24px;
+	color: #656565;
+	font-size: 500;
+	padding: 30px 0px 22px 0px;
+
+}
+.post_paragraph p{
+	font-size: 14px;
+	color: #8c8c8c;
+	padding-bottom: 32px;
+}
+.post_paragraph a {   
+	font-size: 14px;
+	color: #c7b299;
+}
+.post_paragraph i {
+	margin-left: 15px;
+}
+
+
+
+/*Posts CSS Ends*/
+
+/*logo CSS Starts*/
+
+.logo {
+	background: url(../img/logos-bg.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 140px 0px;
+}
+
+
+/*logo CSS Ends*/
+
+/*footer CSS Starts*/
+.footer {
+	background: #191919;
+	padding: 107px 0px 85px 0px;
+}
+.f_con p {
+	font-size: 14px;
+	color: #525252;
+	padding: 30px 0px 34px 0px;
+}
+.f_con a {
+	color: #d1d1d1;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+}
+.f_con i {
+	margin-left: 20px;
+}
+.f_recent h4 {
+	font-size: 24px;
+	font-weight: 700;
+	color: #fff;
+	padding-top: 20px;
+}
+.f_recent span {
+	font-size: 12px;
+	color: #363636;
+}
+.f_recent p {
+	color: #555555;
+	border-bottom: 1px solid #252526;
+	padding: 12px 0px 24px 0px;
+}
+.f_recent h6 {
+	font-size: 12px;
+	color: #363636;
+	color: #fff;
+	padding-top: 20px;
+}
+.f_recent h5 {
+	color: #c7b299;
+	border-bottom: 1px solid #252526;
+	padding: 12px 0px 24px 0px;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+.f_last {
+	padding-top: 30px;
+}
+/*footer CSS Ends*/
+
+/*footer end CSS Starts*/
+.footer_end {
+	background: #111111;
+}
+.footer_end_con p {
+	border-right: 1px solid #252525;
+	font-size: 13px;
+	color: #555555;
+	margin: 46px 0px 53px 12px;
+	padding-right: 12px;
+}
+.footer_end_con span {
+	color: #c7b299;
+}
+.footer_end_con p:last-child{
+	border: none;
+}
+
+
+/*footer end CSS Ends*/
+
+/*Responsive CSS Starts*/
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { 
+	.i_con .i_img_pos {
+       	top: -180px;
+    	left: 82px;
+	}
+	.i_con p {
+   		padding: 30px 0px 200px 0px;
+	}
+	.Project_overlay {
+    	height: 186px;
+   		width: 289px;
+   	}	
+   	.project_content {
+   		width: 290px;
+   	}
+   	.project_content h5 {
+    	font-size: 18px;
+    	padding: 25px 0px 6px 15px;
+	}
+	.project_content p {
+		padding: 0px 0px 25px 16px;
+	}
+	.gr_con {
+    	padding: 70px 0px 60px 70px;
+	}
+
+
+ }
+
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-left: 0px;
+	}
+	.carousel-caption h5 {
+    	font-size: 24px;
+    }
+    .carousel-caption h1 {
+	    font-size: 34px;
+	    padding: 5px 0px 5px 0px;
+	}
+	.carousel-caption p {
+	    font-size: 13px;
+	    padding-bottom: 35px;
+	}	
+	.carousel-caption a {
+	    font-size: 12px;
+	    padding: 13px 20px;
+	} 
+	.ser_con h4 {
+	    font-size: 14px;
+	    padding: 10px 0px 5px 0px;
+	}
+	.ser_con p {
+    	font-size: 11px;
+    }
+    .underline {
+    	margin: 15px 0px 40px 41px;
+	}
+	.ser_con {
+    	padding: 30px 0px 0px 0px;
+	}
+	.idea {
+		padding-top: 30px;
+	}
+	.i_con h3 {
+    	font-size: 18px;
+    }
+    .i_con p {
+    	font-size: 11px;
+    	padding: 11px 0px 167px 0px;
+    }	
+    .i_con .i_img_pos {
+    	top: -156px;
+    	left: 40px;
+    	width: 608px;
+	}
+	.projects {
+    	padding: 40px 0px 50px 0px;
+	}
+	.pro_con h3 {
+		font-size: 18px;
+	}
+	.pro_con p {
+	    font-size: 12px;
+	    padding: 10px 0px 15px 0px;
+	}
+	.pro_icon a {
+		font-size: 12px;
+	}
+	.Project_overlay {
+	    height: 134px;
+	    width: 209px;
+	}	
+	.Project_corner {
+    	height: 20px;
+    	width: 20px;
+    }	
+    .project_content h5 {
+    	font-size: 13px;
+    	padding: 11px 0px 4px 12px;
+	}
+	.project_content p {
+    	padding: 0px 0px 0px 13px;
+    	font-size: 12px;
+	}
+	.project_content {
+    	width: 210px;
+    	height: 65px;
+	}
+	.pro_btn {
+    	padding: 40px 0px 0px 0px;
+	}
+	.pro_btn a {
+		padding: 10px 16px;
+	}	
+	.video {
+		padding: 100px 0px 100px 0px;
+   	}
+   	.video_con h4 {
+	    font-size: 20px;
+	    padding: 5px 0px 5px 0px;
+	}
+	.video_con p {
+		font-size: 12px;
+	}
+	.m_con h4 {
+	    padding: 0px 0px 5px 0px;
+	    font-size: 18px;
+	}
+	.m_con p {
+	    font-size: 13px;
+	    padding-bottom: 22px;
+	}
+	.phn_con p {
+	    padding-bottom: 20px;
+	    font-size: 13px;
+	}
+	.gr_con {
+    	padding: 35px 0px 47px 28px;
+	}
+	.post {
+    	padding: 30px 0px 30px 0px;
+	}
+	.post_calender {
+		top: 7px;
+		left: 8px;
+	}
+	.post_paragraph h4 {
+	    font-size: 18px;
+	    padding: 12px 0px 5px 0px;
+	}
+	.post_paragraph p {
+	    font-size: 12px;
+	    padding-bottom: 10px;
+	}
+	.post_paragraph {
+		padding-left: 10px;
+	}
+	.logo {
+		padding: 40px 0px;
+	}
+	.f_con p {
+	    font-size: 11px;
+	    padding: 18px 0px 15px 0px;
+	}
+	.f_con a {
+		font-size: 11px;
+	}
+	.f_recent span {
+		font-size: 10px;
+	}
+	.f_recent p {
+	    padding: 5px 0px 7px 0px;
+	    font-size: 11px;
+	}
+	.f_recent h4 {
+    	font-size: 16px;
+    	padding-top: 0px;
+    }
+    .f_recent h6 {
+	    font-size: 10px;
+	    padding-top: 10px;
+	}
+	.f_recent h5 {
+		padding: 0px 0px 10px 0px;
+		font-size: 10px;
+	}
+	.footer {
+    	padding: 50px 0px 50px 0px;
+	}
+	.footer_end_con p {
+		font-size: 10px;
+		margin: 30px 0px 30px 10px;
+	}	
+
+}
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+	.underline {
+    	margin: 15px 0px 40px 80px;
+	}
+	.hide {
+		display: none;
+	}
+	.i_con .i_img_pos {
+	    top: -116px;
+	    left: 25px;
+	    width: 450px;
+	}
+	.wordpress {
+		padding: 15px 0px 15px 0px;
+	}
+	.w_con h4 {
+    	font-size: 18px;
+    }	
+    .w_con p {
+    	font-size: 12px;
+    }
+    .pro_icon a {
+    	font-size: 10px;
+    	padding: 10px 10px;
+	}
+	.Project_overlay {
+	    height: 153px;
+	    width: 239px;
+	}
+	.project_content {
+    	width: 239px;
+    }	
+    .gr_con span {
+		padding: 5px 0px 0px 0px;
+		font-size: 24px;
+	}	
+	.gr_con p {
+	    padding-bottom: 0px;
+	    font-size: 10px;
+	} 
+	.gr_con {
+    	padding: 20px 0px 15px 33px;
+	}
+	.post_con {
+		text-align: center;
+		padding-top: 50px;
+	}
+	.post_calender {
+	    top: 20px;
+	    left: 90px;
+	}   
+	.footer_end_con p {
+	    font-size: 8px;
+	    margin: 10px 0px 10px 0px;
+	} 
+
+}
+
+}
+
+
+
+
+ }
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { ... }
+
+/*// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width*/
